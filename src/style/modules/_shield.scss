@@ -1,0 +1,24 @@
+.shield {
+	display: flex;
+	flex-flow: column nowrap;
+	justify-content: space-between;
+	align-self: center;
+	max-width: 330px;
+	background-image: url(../img/assets/bg.svg);
+	background-size: 100% 100%;
+	background-repeat: no-repeat;
+	padding: 6rem;
+}
+
+.shield h1 {
+	text-align: center;
+	font-size: 3rem;
+	margin-top: 2rem;
+}
+
+.shield button {
+	margin-top: 2rem;
+	&:hover {
+		color:ac(white);
+	}
+}

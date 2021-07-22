@@ -13,10 +13,10 @@ const sourcemaps = require('gulp-sourcemaps');
 const pug = require('gulp-pug');
 
 // css
-const sass = require('gulp-sass');
-const	autoprefixer = require('autoprefixer');
+const sass = require('gulp-sass')(require('sass'));
+const autoprefixer = require('autoprefixer');
 const postcss = require('gulp-postcss');
-const	cleanCSS = require('gulp-clean-css');
+const cleanCSS = require('gulp-clean-css');
 
 //Minify PNG, JPEG, GIF and SVG images
 const	imagemin = require('gulp-imagemin');

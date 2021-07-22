@@ -10,7 +10,7 @@ $third-font-family: 'circe-bold', sans-serif;
 $global-font-size: 8px;
 $global-font-weight: 400;
 $body-font-size: 1.75rem;
-$global-line-height: 1.75;
+$global-line-height: 1.25;
 $font-smooth: antialiased;
 
 //Colors
@@ -50,7 +50,8 @@ $b-medium-only: (max-width: 960px) and (min-width: 320px);
 $b-large-only: 960px;
 
 //container width
-$container: 1080px;
+$container-l: 1440px;
+$container-m: 1280px;
 
 //Typography
 

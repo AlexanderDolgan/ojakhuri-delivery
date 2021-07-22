@@ -1,9 +1,17 @@
 header#rest-header
-	hgroup
-		.item
-			a(href="index.html") ← К выбору ресторана
-		.item.header-logo
-			img(src="../img/assets/brand/logo-vert.svg", alt="лого ресторана")
-		.item.address
-			h3 Садовая-Черногрязская, 22, стр. 1 
-			h3 т. +7 (495) 621 60 02
+	.container
+		.left
+			img(src="../img/assets/brand/logo-small.svg").logo-vert
+		.right
+			.nav-ham 
+				.icon
+					ul 
+						li
+						li 
+						li
+				button(type="button").btn-text Наше меню
+			address.rest-header-address
+				ul
+					li Химки, Молодёжная, 6
+					li т. +7 (495) 793-14-77
+					li Время доставки: с 12:00 до 24:00

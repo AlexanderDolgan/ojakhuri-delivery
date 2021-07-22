@@ -26,7 +26,6 @@
 	border: .2rem solid ac(text);
 	color: ac(text);
 	padding: 1rem 1.5rem;
-	
 }
 
 .btn-ghost:hover,
@@ -39,6 +38,23 @@
 .btn-ghost:active {
 	background-color: ac(lightgray, tint);
 	color: ac(text);
+}
+
+.btn-text {
+	background-color: transparent;
+	border: none;
+	color: ac(text);
+	padding: 1rem 1.5rem;
+}
+
+.btn-text:hover,
+.btn-text:focus {
+	color: ac(secondary);
+	text-decoration: none;
+}
+
+.btn-text:active {
+	color: ac(secondary);
 }
 
 .woocommerce #respond input#submit, .woocommerce a.button, .woocommerce button.button, .woocommerce input.button {

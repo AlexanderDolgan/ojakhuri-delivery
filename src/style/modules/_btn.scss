@@ -80,4 +80,7 @@
 	color: ac(white);
 	background-color: ac(secondary);
 	border-radius: 4rem;
+	&:hover {
+		color:ac(white)
+	}
 }

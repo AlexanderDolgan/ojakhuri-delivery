@@ -8,7 +8,29 @@
 }
 
 main {
-	padding: 4rem 0;
+	padding: 13rem 0;
+	max-width: 180rem;
+	display: flex;
+	flex-flow: row nowrap;
+	align-content: center;
+	margin: 0 auto;
+}
+
+
+main .rest-nav {
+	display: none;
+	@media (min-width: $b-xlarge) {
+		display: block;
+		width: percentage(3/12);
+	}
+}
+
+.main-products {
+	width: 100%;
+	padding: 0 3rem;
+	@media (min-width: $b-xlarge) {
+		width: percentage(9/12);
+	}
 }
 
 .start-page {

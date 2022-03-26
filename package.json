@@ -13,6 +13,7 @@
   "author": "Alexander Dolgan",
   "license": "ISC",
   "devDependencies": {
+    "4": "^0.0.0",
     "@babel/core": "^7.14.8",
     "@babel/preset-env": "^7.14.8",
     "autoprefixer": "^9.8.6",
@@ -34,7 +35,7 @@
     "imagemin-jpegtran": "^6.0.0",
     "imagemin-optipng": "^7.1.0",
     "imagemin-svgo": "^7.1.0",
-    "sass": "^1.35.2"
+    "sass": "^1.36.0"
   },
   "dependencies": {
     "gulp-newer": "^1.4.0"

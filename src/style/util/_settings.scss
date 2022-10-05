@@ -19,15 +19,15 @@ $colors: (
 	secondary: hsl(24, 58%, 58%),
 	third: hsl(153, 28%, 75%),
 	fourth: hsl(38, 100%, 98%),
-	text: hsl(0,0,17),
+	text: hsl(0,0%,17%),
 	text-col: hsl(39, 9%, 61%),
 	text-col2: hsl(19, 8%, 40%),
-	accept: hsl(90,45,45%),
-	alert: hsl(0,100,70%),
-	white: hsl(0,0,100%),
-	black: hsl(0,0,17%),
-	gray: hsl(0,0,60%),
-	lightgray: hsl(0,0,94%),
+	accept: hsl(90,45%,45%),
+	alert: hsl(0,100%,70%),
+	white: hsl(0,0%,100%),
+	black: hsl(0,0%,17%),
+	gray: hsl(0,0%,60%),
+	lightgray: hsl(0,0%,94%),
 );
 
 $body-background: ac(third);

@@ -21,7 +21,7 @@ main .rest-nav {
 	display: none;
 	@media (min-width: $b-xlarge) {
 		display: block;
-		width: percentage(3/12);
+		width: math.div(3,12);
 	}
 }
 
@@ -29,7 +29,7 @@ main .rest-nav {
 	width: 100%;
 	padding: 0 3rem;
 	@media (min-width: $b-xlarge) {
-		width: percentage(9/12);
+		width: math.div(9,12);
 	}
 }
 

@@ -4,13 +4,13 @@ const { series, parallel, src, dest, watch } = require('gulp');
 const gulp = require('gulp');
 
 // js
-// const babel = require('gulp-babel');
-// const uglify = require('gulp-uglify');
+const babel = require('gulp-babel');
+const uglify = require('gulp-uglify');
 
-// const sourcemaps = require('gulp-sourcemaps');
+const sourcemaps = require('gulp-sourcemaps');
 
 // html
-// const pug = require('gulp-pug');
+const pug = require('gulp-pug');
 
 // css
 const sass = require('gulp-sass')(require('sass'));
